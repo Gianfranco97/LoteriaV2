@@ -12,7 +12,11 @@
 
     </div>
     <div class="Nueva-Loteria">
-
+      <h2>Agregar una Nueva Loteria</h2>
+      <form class="F-Nueva-Loteria" action="agregar_loteria.php" method="post">
+        <p>Nombre:</p><input type="text" name="nombre" required>
+        <br><input type="submit" name="agregar" value="Agregar">
+      </form>
     </div>
   </body>
 </html>
