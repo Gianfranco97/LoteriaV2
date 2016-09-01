@@ -1,6 +1,141 @@
+body{
+  background-color: #F1F8E9;
+}
+h1{
+  width: 60%;
+  margin: 25px auto;
+  padding: 40px 0px;
+  text-align: center;
+  background-color: #8BC34A;
+  border-radius: 5px;
+  font-size: 3.3em;
+}
+h1:hover{
+  font-size: 3.4em;
+}
+h2{
+  font-size: 1.8em;
+}
+ul{
+  list-style:none;
+}
 .Menu-General{
-
+background-color: #DCEDC8;
+width: 45%;
+margin: 15px auto;
+text-align: center;
+font-size: 1.5em;
+color: black;
+border-radius: 5px;
+padding: 5px;
+}
+.menu{
+  background-color: #C5E1A5;
+  width: 95%;
+  margin: 5px auto;
+  border-radius: 5px;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  padding: 10px;
+}
+a:link, a:visited {
+text-decoration:none;
+color: black;
+}
+a:hover, a:active {
+  text-decoration:none;
+  color: black;
+}
+.menu:hover{
+  font-size: 1.7em;
+}
+.eliminar img{
+  max-width: 25px;
+}
+.eliminar img:hover{
+  max-width: 30px;
 }
 .Nueva-Loteria{
+  width: 25%;
+  margin: 25px auto;
+  padding: 10px 10px 25px 10px;
+  text-align: center;
+  background-color: #7CB342;
+  border-radius: 5px;
+}
+.regreso{
+	width: 25%;
+  background-color: #689F38;
+  color: white;
+  border-radius: 7px;
+  margin: 5px auto;
+  text-align: center;
+  font-size: 1.4em;
+  padding: 7px 2px;
+}
+.regreso:hover{
+  padding: 10px;
+  font-size: 1.3em;
+}
+.formulario_nuevo{
+  width: 70%;
+  margin: 15px auto;
+  border-radius: 5px;
+  background-color: #DCEDC8;
+  text-align: center;
+  font-size: 1.5em;
+}
+.boton {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 14px;
+  background: #ffffff;
+  padding: 5px 10px 5px 10px;
+  border: solid #0a0a0a 1px;
+  text-decoration: none;
+  margin: 5px;
+}
 
+.boton:hover {
+  background: #fafafa;
+  text-decoration: none;
+  font-size: 0.7em;
+}
+.boton:active {
+	position:relative;
+	top:1px;
+}
+.Datos{
+  width: 95%;
+  margin: 5px auto;
+  text-align: center;
+}
+.resultados{
+  width: 48%;
+  margin: 2px;
+  background-color: #C5E1A5;
+  float: left;
+  padding: 5px;
+  border: solid #0a0a0a 1px;
+  border-radius: 5px;
+  font-size: 2em;
+}
+.resultados h2{
+  text-align: center;
+}
+.lista{
+  width: 95%;
+  margin: 5px auto;
+  background-color: #AED581;
+  padding: 6px;
+  border: solid #33691E 1.5px;
+}
+.resultados h3, p{
+  font-size: 0.8em;
+}
+.resultados h2{
+  font-size: 1.2em;
 }
